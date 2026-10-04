@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="axicon.png" />
+  <meta name="description" content="AX BOOK MARKET — badiiy, klassik va zamonaviy kitoblar uchun uzun, jonli va chiroyli onlayn bozor." />
+  <title>AX BOOK MARKET</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="is-opening">
+  <div class="opening" aria-hidden="true">
+    <div class="opening__mark">AX</div>
+    <div class="opening__curtain opening__curtain--top"></div>
+    <div class="opening__curtain opening__curtain--bottom"></div>
+  </div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="AX BOOK MARKET bosh sahifa">
+      <span class="brand__sig">AX</span>
+      <span class="brand__text">BOOK<br />MARKET</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Asosiy navigatsiya">
+      <a href="#catalog">Katalog</a>
+      <a href="#collections">To‘plamlar</a>
+      <a href="#editorial">Maqolalar</a>
+      <a href="contact.html">Aloqa</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-button" type="button" data-search-toggle aria-label="Qidiruvni ochish">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 1 0 4.6 13.4l4.8 4.8 1.4-1.4-4.8-4.8A7.5 7.5 0 0 0 10.5 3Zm0 2a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Z"/></svg>
+      </button>
+      <button class="cart-button" type="button" data-cart-button aria-label="Savatcha">
+        <span>Savatcha</span>
+        <b data-cart-count>0</b>
+      </button>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="Menyuni ochish">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" data-mobile-menu>
+    <a href="#catalog">Katalog</a>
+    <a href="#collections">To‘plamlar</a>
+    <a href="#editorial">Maqolalar</a>
+    <a href="contact.html">Aloqa</a>
+  </div>
+
+  <div class="search-panel" data-search-panel>
+    <label for="site-search">Kitob qidirish</label>
+    <input id="site-search" type="search" placeholder="Masalan: 1984, Sapiens, Hobbit..." data-search-input />
+    <p data-search-hint>Katalogdagi kitoblarni nomi yoki muallifi bo‘yicha filtrlaydi.</p>
+  </div>
+
+  <main>
+    <section class="hero" data-hero>
+      <div class="hero__grid-lines" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="eyebrow reveal-up">AX BOOK MARKET · 2026</p>
+        <h1 class="hero__title" aria-label="Kitob bilan yangi dunyo och">
+          <span class="title-line"><span>Kitob</span></span>
+          <span class="title-line title-line--indent"><span>bilan yangi</span></span>
+          <span class="title-line title-line--accent"><span>dunyo och</span></span>
+        </h1>
+        <p class="hero__lead reveal-up">Klassik asarlardan tortib zamonaviy bestsellerlargacha — barchasi bitta uzun, silliq skroll va jonli animatsiyalarga ega bozorda.</p>
+        <div class="hero__actions reveal-up">
+          <a class="button button--primary" href="#catalog">Katalogni ko‘rish</a>
+          <a class="button button--ghost" href="contact.html">Bog‘lanish</a>
+        </div>
+      </div>
+
+      <div class="hero__books" aria-label="Tanlangan kitob muqovalari">
+        <figure class="float-book float-book--one" data-float="-16">
+          <img src="images (2).jpg" alt="George Orwell — 1984 kitob muqovasi" />
+        </figure>
+        <figure class="float-book float-book--two" data-float="22">
+          <img src="images (4).jpg" alt="J.K. Rowling — Harry Potter and the Philosopher's Stone kitob muqovasi" />
+        </figure>
+        <figure class="float-book float-book--three" data-float="-28">
+          <img src="images (3).jpg" alt="J.R.R. Tolkien — The Hobbit kitob muqovasi" />
+        </figure>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <span>Skroll qiling</span>
+        <i></i>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Bo‘limlar ro‘yxati">
+      <div class="ticker__track">
+        <span>Badiiy adabiyot</span><span>Fantastika</span><span>Biznes</span><span>Klassika</span><span>Tarix</span><span>Psixologiya</span><span>Bolalar kitoblari</span>
+        <span>Badiiy adabiyot</span><span>Fantastika</span><span>Biznes</span><span>Klassika</span><span>Tarix</span><span>Psixologiya</span><span>Bolalar kitoblari</span>
+      </div>
+    </section>
+
+    <section class="intro section-pad">
+      <div class="section-head reveal-up">
+        <p class="eyebrow">Nega AX?</p>
+        <h2>Qog‘oz hidini sevuvchilar uchun raqamli bozor.</h2>
+      </div>
+      <div class="intro__grid">
+        <p class="intro__big reveal-up">Biz har bir kitobni oddiy mahsulot emas, balki sahifalangan sayohat deb ko‘ramiz. Sayt uzun sahifa sifatida qurilgan: pastga tushgan sari yangi to‘plamlar, fikrlar va takliflar ochiladi.</p>
+        <div class="intro__note reveal-up">
+          <b>11+</b>
+          <span>tanlangan haqiqiy nashrlar</span>
+        </div>
+        <div class="intro__note reveal-up">
+          <b>24/7</b>
+          <span>onlayn buyurtma qabul qilish</span>
+        </div>
+        <div class="intro__note intro__note--dark reveal-up">
+          <b>100%</b>
+          <span>mualliflik ruhiga hurmat</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="collections section-pad" id="collections">
+      <div class="section-head reveal-up">
+        <p class="eyebrow">To‘plamlar</p>
+        <h2>Uch yo‘nalish — uch kayfiyat.</h2>
+      </div>
+      <div class="collection-row">
+        <article class="collection-card reveal-up">
+          <span>01</span>
+          <h3>Kechki o‘qish</h3>
+          <p>Sokin romantika, chuqur klassika va qisqa hikoyalar.</p>
+          <button class="text-button" type="button" data-filter-jump="classic">Ko‘rish</button>
+        </article>
+        <article class="collection-card collection-card--red reveal-up">
+          <span>02</span>
+          <h3>Sarguzasht</h3>
+          <p>Fantastik olamlar, sehr, safar va kutilmagan burilishlar.</p>
+          <button class="text-button" type="button" data-filter-jump="fantasy">Ko‘rish</button>
+        </article>
+        <article class="collection-card collection-card--dark reveal-up">
+          <span>03</span>
+          <h3>Aql o‘yinlari</h3>
+          <p>Tarix, psixologiya va hayotni o‘zgartiruvchi fikrlar.</p>
+          <button class="text-button" type="button" data-filter-jump="mind">Ko‘rish</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="catalog section-pad" id="catalog">
+      <div class="section-head section-head--split reveal-up">
+        <div>
+          <p class="eyebrow">Katalog</p>
+          <h2>Haqiqiy kitoblar, jonli vitrina.</h2>
+        </div>
+        <div class="filter-bar" role="group" aria-label="Kitoblarni filtrlash">
+          <button class="filter-pill is-active" type="button" data-filter="all">Barchasi</button>
+          <button class="filter-pill" type="button" data-filter="classic">Klassika</button>
+          <button class="filter-pill" type="button" data-filter="fantasy">Fantastika</button>
+          <button class="filter-pill" type="button" data-filter="mind">Fikrlar</button>
+        </div>
+      </div>
+
+      <div class="book-grid" data-book-grid>
+        <article class="book-card" data-category="classic" data-title="1984 George Orwell">
+          <div class="book-card__cover"><img src="images (2).jpg" alt="1984 — George Orwell" loading="lazy"></div>
+          <div class="book-card__meta"><h3>1984</h3><p>George Orwell</p><span>68 000 so‘m</span></div>
+          <div class="book-card__actions"><button type="button" data-add-cart>Savatga</button><button type="button" data-quick-view="1984">Ko‘z yugurtish</button></div>
+        </article>
+
+        <article class="book-card" data-category="fantasy" data-title="Harry Potter and the Philosopher's Stone J.K. Rowling">
+          <div class="book-card__cover"><img src="images (4).jpg" alt="Harry Potter and the Philosopher's Stone — J.K. Rowling" loading="lazy"></div>
+          <div class="book-card__meta"><h3>Harry Potter I</h3><p>J.K. Rowling</p><span>95 000 so‘m</span></div>
+          <div class="book-card__actions"><button type="button" data-add-cart>Savatga</button><button type="button" data-quick-view="Harry Potter I">Ko‘z yugurtish</button></div>
+        </article>
+
+        <article class="book-card" data-category="mind" data-title="The Alchemist Paulo Coelho">
+          <div class="book-card__cover"><img src="images (5).jpg" alt="The Alchemist — Paulo Coelho" loading="lazy"></div>
+          <div class="book-card__meta"><h3>The Alchemist</h3><p>Paulo Coelho</p><span>72 000 so‘m</span></div>
+          <div class="book-card__actions"><button type="button" data-add-cart>Savatga</button><button type="button" data-quick-view="The Alchemist">Ko‘z yugurtish</button></div>
+        </article>
+
+        <article class="book-card" data-category="classic" data-title="The Great Gatsby F. Scott Fitzgerald">
+          <div class="book-card__cover"><img src="images (6).jpg" alt="The Great Gatsby — F. Scott Fitzgerald" loading="lazy"></div>
+          <div class="book-card__meta"><h3>The Great Gatsby</h3><p>F. Scott Fitzgerald</p><span>64 000 so‘m</span></div>
+          <div class="book-card__actions"><button type="button" data-add-cart>Savatga</button><button type="button" data-quick-view="The Great Gatsby">Ko‘z yugurtish</button></div>
+        </article>
+
+        <article class="book-card" data-category="fantasy" data-title="The Hobbit J.R.R. Tolkien">
+          <div class="book-card__cover"><img src="images (7).jpg" alt="The Hobbit — J.R.R. Tolkien" loading="lazy"></div>
+          <div class="book-card__meta"><h3>The Hobbit</h3><p>J.R.R. Tolkien</p><span>88 000 so‘m</span></div>
+          <div class="book-card__actions"><button type="button" data-add-cart>Savatga</button><button type="button" data-quick-view="The Hobbit">Ko‘z yugurtish</button></div>
+        </article>
+
+        <article class="book-card" data-category="classic" data-title="The Little Prince Antoine de Saint-Exupéry">
+          <div class="book-card__cover"><img src="images (8).jpg" alt="The Little Prince — Antoine de Saint-Exupéry" loading="lazy"></div>
+          <div class="book-card__meta"><h3>The Little Prince</h3><p>Antoine de Saint-Exupéry</p><span>52 000 so‘m</span></div>
+          <div class="book-card__actions"><button type="button" data-add-cart>Savatga</button><button type="button" data-quick-view="The Little Prince">Ko‘z yugurtish</button></div>
+        </article>
+
+        <article class="book-card" data-category="mind" data-title="Sapiens Yuval Noah Harari">
+          <div class="book-card__cover"><img src="SAPIENS.png" alt="Sapiens — Yuval Noah Harari" loading="lazy"></div>
+          <div class="book-card__meta"><h3>Sapiens</h3><p>Yuval Noah Harari</p><span>98 000 so‘m</span></div>
+          <div class="book-card__actions"><button type="button" data-add-cart>Savatga</button><button type="button" data-quick-view="Sapiens">Ko‘z yugurtish</button></div>
+        </article>
+
+        <article class="book-card" data-category="classic" data-title="Crime and Punishment Fyodor Dostoevsky">
+          <div class="book-card__cover"><img src="images (9).jpg" alt="Crime and Punishment — Fyodor Dostoevsky" loading="lazy"></div>
+          <div class="book-card__meta"><h3>Crime and Punishment</h3><p>Fyodor Dostoevsky</p><span>76 000 so‘m</span></div>
+          <div class="book-card__actions"><button type="button" data-add-cart>Savatga</button><button type="button" data-quick-view="Crime and Punishment">Ko‘z yugurtish</button></div>
+        </article>
+
+        <article class="book-card" data-category="classic" data-title="To Kill a Mockingbird Harper Lee">
+          <div class="book-card__cover"><img src="images (10).jpg" alt="To Kill a Mockingbird — Harper Lee" loading="lazy"></div>
+          <div class="book-card__meta"><h3>To Kill a Mockingbird</h3><p>Harper Lee</p><span>84 000 so‘m</span></div>
+          <div class="book-card__actions"><button type="button" data-add-cart>Savatga</button><button type="button" data-quick-view="To Kill a Mockingbird">Ko‘z yugurtish</button></div>
+        </article>
+
+        <article class="book-card" data-category="classic" data-title="Pride and Prejudice Jane Austen">
+          <div class="book-card__cover"><img src="images (11).jpg" alt="Pride and Prejudice — Jane Austen" loading="lazy"></div>
+          <div class="book-card__meta"><h3>Pride and Prejudice</h3><p>Jane Austen</p><span>62 000 so‘m</span></div>
+          <div class="book-card__actions"><button type="button" data-add-cart>Savatga</button><button type="button" data-quick-view="Pride and Prejudice">Ko‘z yugurtish</button></div>
+        </article>
+
+        <article class="book-card" data-category="mind" data-title="Atomic Habits James Clear">
+          <div class="book-card__cover"><img src="images (12).jpg" alt="Atomic Habits — James Clear" loading="lazy"></div>
+          <div class="book-card__meta"><h3>Atomic Habits</h3><p>James Clear</p><span>92 000 so‘m</span></div>
+          <div class="book-card__actions"><button type="button" data-add-cart>Savatga</button><button type="button" data-quick-view="Atomic Habits">Ko‘z yugurtish</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="editorial section-pad" id="editorial">
+      <div class="section-head reveal-up">
+        <p class="eyebrow">Maqolalar</p>
+        <h2>Kitobdan keyingi suhbatlar.</h2>
+      </div>
+      <div class="essay-list">
+        <article class="essay reveal-up">
+          <span>№01</span>
+          <h3>Nega klassikalar hali ham yosh?</h3>
+          <p>Orwell, Ostin va Dostoevskiy qahramonlari zamonaviy shahar shovqinida ham tanish eshitiladi — chunki ular insonning eng qadimiy savollarini beradi.</p>
+        </article>
+        <article class="essay reveal-up">
+          <span>№02</span>
+          <h3>Fantastika bizga qanday jasurlik beradi?</h3>
+          <p>Hobbit yo‘li yoki Hogwarts zallari — ikkalasi ham oddiy qahramonning ichki xaritasini kengaytiradi.</p>
+        </article>
+        <article class="essay reveal-up">
+          <span>№03</span>
+          <h3>Odatlar kitoblari amaliyotga qanday aylanadi?</h3>
+          <p>Atomic Habits kabi kitoblar katta va’dalarni kichik takrorlanuvchi harakatlarga bo‘ladi. Biz ularni hayotga sinab ko‘rish usullarini yozamiz.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <blockquote class="reveal-up">“Kitob — ichingizdagi muzni sindiradigan bolta.”</blockquote>
+      <p class="reveal-up">— Franz Kafka fikridan ilhomlangan sharh</p>
+    </section>
+
+    <section class="faq section-pad">
+      <div class="section-head reveal-up">
+        <p class="eyebrow">Savollar</p>
+        <h2>Tez-tez so‘raladi.</h2>
+      </div>
+      <div class="accordion" data-accordion>
+        <button type="button" class="accordion__item">Yetkazib berish qancha vaqt oladi?<span>+</span></button>
+        <div class="accordion__panel"><p>Namangan bo‘ylab 1–2 kun, viloyatlarga 2–5 kun ichida yetkaziladi.</p></div>
+        <button type="button" class="accordion__item">Kitoblar originalmi?<span>+</span></button>
+        <div class="accordion__panel"><p>Ha, katalogdagi nashrlar ishonchli distribyutorlardan tanlab olinadi.</p></div>
+        <button type="button" class="accordion__item">Sovg‘a uchun qadoqlaysizmi?<span>+</span></button>
+        <div class="accordion__panel"><p>Albatta. Buyurtmaga “sovg‘a qadoqi” degan izoh qoldiring.</p></div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="newsletter__inner reveal-up">
+        <h2>Yangi kelgan kitoblar haqida birinchilardan bo‘ling.</h2>
+        <form data-newsletter-form>
+          <input type="email" required placeholder="email@misol.uz" aria-label="Email manzil" />
+          <button class="button button--primary" type="submit">Obuna bo‘lish</button>
+        </form>
+        <p data-form-message aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-book" aria-hidden="true">
+      <svg viewBox="0 0 64 40"><path d="M4 8c8-4 18-4 28 0v28c-10-4-20-4-28 0V8Zm60 0c-8-4-18-4-28 0v28c10-4 20-4 28 0V8ZM32 8v28" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+    </div>
+    <p>AX BOOK MARKET — kitobsevarlar uchun.</p>
+    <a href="contact.html">Aloqa sahifasi</a>
+  </footer>
+
+  <div class="modal" data-modal aria-hidden="true">
+    <div class="modal__card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal__close" type="button" data-modal-close aria-label="Yopish">×</button>
+      <img data-modal-image src="assets/books/1984.jpg" alt="" />
+      <div>
+        <p class="eyebrow">Tezkor ko‘rish</p>
+        <h3 id="modal-title" data-modal-title>Kitob</h3>
+        <p data-modal-text>Bu kitob AX BOOK MARKET vitrinalaridan birida turibdi. Batafsil ma’lumot uchun aloqa sahifasiga yozing.</p>
+        <button class="button button--primary" type="button" data-modal-add>Savatga qo‘shish</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" data-toast>Kitob savatchaga qo‘shildi.</div>
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="axicon.png" />
+  <meta name="description" content="AX BOOK MARKET aloqa sahifasi — buyurtma, taklif va hamkorlik uchun yozing." />
+  <title>Aloqa — AX BOOK MARKET</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="is-opening">
+  <div class="opening opening--short" aria-hidden="true">
+    <div class="opening__mark">AX</div>
+    <div class="opening__curtain opening__curtain--top"></div>
+    <div class="opening__curtain opening__curtain--bottom"></div>
+  </div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="AX BOOK MARKET bosh sahifa">
+      <span class="brand__sig">AX</span>
+      <span class="brand__text">BOOK<br />MARKET</span>
+    </a>
+    <nav class="main-nav" aria-label="Asosiy navigatsiya">
+      <a href="index.html#catalog">Katalog</a>
+      <a href="index.html#collections">To‘plamlar</a>
+      <a href="index.html#editorial">Maqolalar</a>
+      <a href="contact.html" aria-current="page">Aloqa</a>
+    </nav>
+    <div class="header-actions">
+      <a class="button button--small" href="index.html">Bosh sahifa</a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="Menyuni ochish"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" data-mobile-menu>
+    <a href="index.html#catalog">Katalog</a>
+    <a href="index.html#collections">To‘plamlar</a>
+    <a href="index.html#editorial">Maqolalar</a>
+    <a href="contact.html">Aloqa</a>
+  </div>
+
+  <main class="contact-page">
+    <section class="contact-hero">
+      <p class="eyebrow reveal-up">Aloqa</p>
+      <h1 class="reveal-up">Kitob haqida gapirishni yaxshi ko‘ramiz.</h1>
+      <p class="reveal-up">Buyurtma, sovg‘a tanlash yoki do‘koningiz uchun kitob to‘plami — har qanday savol bilan yozing.</p>
+    </section>
+
+    <section class="contact-grid section-pad">
+      <form class="contact-form reveal-up" data-contact-form>
+        <label>Ismingiz
+          <input type="text" name="name" required placeholder="Abdulaziz" />
+        </label>
+        <label>Telefon yoki email
+          <input type="text" name="contact" required placeholder="+998 95 481 57 74" />
+        </label>
+        <label>Mavzu
+          <select name="topic">
+            <option>Buyurtma</option>
+            <option>Sovg‘a tanlash</option>
+            <option>Hamkorlik</option>
+            <option>Boshqa savol</option>
+          </select>
+        </label>
+        <label>Xabar
+          <textarea name="message" rows="6" required placeholder="Qaysi kitoblar sizni qiziqtiradi?"></textarea>
+        </label>
+        <button class="button button--primary" type="submit">Xabar yuborish</button>
+        <p data-contact-message aria-live="polite"></p>
+      </form>
+
+      <aside class="contact-card reveal-up">
+        <h2>AX BOOK MARKET</h2>
+        <dl>
+          <div><dt>Manzil</dt><dd>Namangan, Kitoblar ko‘chasi 7</dd></div>
+          <div><dt>Telefon</dt><dd>+99895 481 57 74</dd></div>
+          <div><dt>Email</dt><dd>salom@axbook.uz</dd></div>
+          <div><dt>Ish vaqti</dt><dd>Har kuni 09:00 — 21:00</dd></div>
+        </dl>
+        <div class="mini-map" aria-label="Dekorativ xarita">
+          <span></span><span></span><span></span><i></i>
+        </div>
+      </aside>
+    </section>
+
+    <section class="contact-strip">
+      <p class="reveal-up">Tez javob uchun mavzu nomini aniq yozing — operatorimiz kitob nomi bo‘yicha darhol topadi.</p>
+      <a class="button button--ghost reveal-up" href="index.html#catalog">Katalogga qaytish</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-book" aria-hidden="true">
+      <svg viewBox="0 0 64 40"><path d="M4 8c8-4 18-4 28 0v28c-10-4-20-4-28 0V8Zm60 0c-8-4-18-4-28 0v28c10-4 20-4 28 0V8ZM32 8v28" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+    </div>
+    <p>AX BOOK MARKET — kitobsevarlar uchun.</p>
+    <a href="index.html">Bosh sahifa</a>
+  </footer>
+
+  <div class="toast" data-toast>Xabaringiz qabul qilindi.</div>
+  <script src="script.js" defer></script>
+</body>
+</html>
